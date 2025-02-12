@@ -1,0 +1,64 @@
+/* index.css */
+
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #root {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    /* A warm, soft gradient background */
+    background: linear-gradient(135deg, #fff3e0, #ffcc80);
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global padding for the body */
+body {
+    padding: 1rem;
+}
+
+/* Enhanced scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffe0b2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff9800;
+    border-radius: 10px;
+    border: 2px solid #ffe0b2;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #fb8c00;
+    }
+
+/* Global anchor styling */
+a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Headings styling */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
